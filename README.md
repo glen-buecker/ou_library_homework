@@ -43,6 +43,8 @@ This API will work with virtually any language, so feel free to use what you'd l
 
 [JSON Placeholder Photos API link](https://jsonplaceholder.typicode.com/photos)
 
+*Note: the documentation for the photos api is not super detailed, so it might help to know you can limit the number of photos retrieved by using the url param "_limit=NUM"*
+
 ### Cloning repo
 Follow these instructions to clone the starter repo to a local copy. 
 1. Clone the following repo to your computer locally: https://github.com/OULibraries/web_development_assignment
