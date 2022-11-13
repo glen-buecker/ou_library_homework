@@ -2,7 +2,7 @@
 
 As part of your application, please create a single html page implementing an image gallery that fits the user store below. You will need to use html, css, and javascript to complete this exercise. 
 
-Please work on this exercise for 1-2 hours. As you're working, create a `COMMENTS.txt` file and make notes on ambiguities that you found, assumptions that you made, or any other comments that you feel are relevant, and include that in the files that you send us as part of your submission. 
+Please work on this exercise for 1-2 hours. As you're working, create a `COMMENTS.txt` file and make notes on ambiguities that you found, assumptions that you made, or any other comments that you feel are relevant, and include that in the files that you send us as part of your submission (See below for instructions on submitting your work.) 
 
 It is not neccessary to complete all requirements in the time alloted. If you run out of time, please note what you were able to complete, and what you would work on next in your `COMMENTS.txt` file. 
 
@@ -60,6 +60,10 @@ This API will work with virtually any language, so feel free to use what you'd l
 [JSON Placeholder Photos API link](https://jsonplaceholder.typicode.com/photos)
 
 *Note: the documentation for the photos api is not super detailed, so it might help to know you can limit the number of photos retrieved by using the url param "_limit=NUM"*
+
+
+## Submiting Your Work
+
 
 ### Cloning repo
 Follow these instructions to clone the starter repo to a local copy. 
