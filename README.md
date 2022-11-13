@@ -1,8 +1,24 @@
 # OU Libraries Web Development Project
 
+As part of your application, please create a single html page implementing an image gallery that fits the user store below. You will need to use html, css, and javascript to complete this exercise. 
+
+Please work on this exercise for 1-2 hours. As you're working, create a `COMMENTS.txt` file and make notes on ambiguities that you found, assumptions that you made, or any other comments that you feel are relevant, and include that in the files that you send us as part of your submission. 
+
+It is not neccessary to complete all requirements in the time alloted. If you run out of time, please note what you were able to complete, and what you would work on next in your `COMMENTS.txt` file. 
+
+This is an open-book exercise so feel free to use any of the resources you would normally use in completing your work, but don't ask for help from others. 
+
+Also, please fill free to contact us if you have any questions or need clearification on any points. 
+
+
+
+
+
 ## User Story
 As a site visitor, I want to be able to view a number of images on a page as a gallery. 
+
 I expect these images to be retrieved via the API provided and displayed in a dynamic layout that will work on mobile as well as large screens. 
+
 I also expect the page to be accessible to visually impaired users and compatible with screen readers.
 
 ## Acceptance Criteria
