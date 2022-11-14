@@ -4,7 +4,7 @@ As part of your application, please create image gallery page that fits the user
 
 Please work on this exercise for 1-2 hours. 
 
-As you're working, create a `COMMENTS.txt` file and make notes on any ambiguities that you found, assumptions that you made, or any other comments that you feel are relevant, and include that in the files that you send us as part of your submission.
+As you're working, create a `COMMENTS.txt` file and make notes on any ambiguities that you found, assumptions that you made, features that you're proud of, or any other comments that you feel are relevant and include that in the files that you send us as part of your submission.
 
 It is not neccessary to complete all requirements in the time alloted. If you run out of time, please note what you were able to complete, and what you would work on next in your `COMMENTS.txt` file. 
 
