@@ -40,16 +40,16 @@ And the entire page is semantic as well as accessible to screen readers and visu
 Scenario: Default when page is loaded or Gallery navigation is clicked**
 
 * When I load the page initially or click the Gallery navigation item
-Then the gallery of images is loaded in the main content of the page using the provided API
-And the gallery is dynamic based on screen size and looks presentable on mobile as well as wide screens
-And the images have any special styling you would like to add for added appeal
+Then the gallery of images is loaded in the main content of the page using the provided API  
+And the gallery is dynamic based on screen size and looks presentable on mobile as well as wide screens  
+And the images have any special styling you would like to add for added appeal  
 And the number of images ranges from 25-75. The gallery can include pagination if you wish or you can take creative control on how many to display at one time and how to display any additional images. 
 
 **Feature: Contact
 Scenario: Scroll to bottom or Contact navigation item is clicked**
 
 * When I scroll to the bottom of the page or click the Contact navigation item
-Then I see or am taken to the footer on the page with a fake number, fake email, and facebook (no page needed, just link to facebook.com) link to provide the user with means to contact the company
+Then I see or am taken to the footer on the page with a fake number, fake email, and facebook (no page needed, just link to facebook.com) link to provide the user with means to contact the company  
 And the links should use the proper browser methods to activate each link according to its purpose.
 
 ## Resources
