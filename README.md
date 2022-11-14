@@ -25,7 +25,7 @@ As a site visitor, I want to be able to view a number of images on a page as a g
 
 I expect these images to be retrieved via the API provided and displayed in a dynamic layout that will work on mobile as well as large screens. 
 
-I also expect the page to be accessible to visually impaired users and compatible with screen readers.
+I also expect the page to be accessible to visually impaired users and compatible with screen readers. (You may want to note your approach to ensuring accessiblity in `COMMENTS.txt`)
 
 ## Acceptance Criteria
 **Feature: Page with header and navigation
