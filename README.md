@@ -1,8 +1,30 @@
 # OU Libraries Web Development Project
 
+As part of your application, please create image gallery page that fits the user story below. You will need to use html, css, and javascript to complete this exercise. We'll be evaluating your submission for quality and clarity, and comments are highly encouraged.  
+
+Please work on this exercise for 1-2 hours. 
+
+As you're working, create a `COMMENTS.txt` file and make notes on any ambiguities that you found, assumptions that you made, or any other comments that you feel are relevant, and include that in the files that you send us as part of your submission.
+
+It is not neccessary to complete all requirements in the time alloted. If you run out of time, please note what you were able to complete, and what you would work on next in your `COMMENTS.txt` file. 
+
+This is an open-book exercise so feel free to use any of the resources you would normally use in completing your work, but don't ask for help from others. That said, please do feel free to contact us if you have any questions or need clearification on any points. 
+
+## Instructions for Submission
+
+1. Clone the following repo to your computer locally: https://github.com/OULibraries/web_development_assignment
+2. Create the `COMMENTS.txt` file for your comments
+3. Work on the assignment within your local copy of the git repo, and commit your work on an ongoing basis. We'll be looking at your commit history and commit messages as part of our evaluation. 
+4. Once you've completed the project or run out of time, send us a zip file of the final state of project files. Make sure to include your `COMMENTS.txt` file and your `.git` directory so we can see your commits.
+
+
+
+
 ## User Story
 As a site visitor, I want to be able to view a number of images on a page as a gallery. 
+
 I expect these images to be retrieved via the API provided and displayed in a dynamic layout that will work on mobile as well as large screens. 
+
 I also expect the page to be accessible to visually impaired users and compatible with screen readers.
 
 ## Acceptance Criteria
@@ -44,14 +66,3 @@ This API will work with virtually any language, so feel free to use what you'd l
 [JSON Placeholder Photos API link](https://jsonplaceholder.typicode.com/photos)
 
 *Note: the documentation for the photos api is not super detailed, so it might help to know you can limit the number of photos retrieved by using the url param "_limit=NUM"*
-
-### Cloning repo
-Follow these instructions to clone the starter repo to a local copy. 
-1. Clone the following repo to your computer locally: https://github.com/OULibraries/web_development_assignment
-2. Use your existing [gitHub](https://github.com) account, or create a new one to create a new repo (NOTE: make repo public and do NOT click "Add README")
-3. Add this repo contents (only index.html and README.md files) to YOUR new repo.
-4. Please push to YOUR repo often if possible. A detailed commit history is a big plus. 
-5. When completed, there are two options for submitting to the hiring manager.
-   1. Use GitHub pages to deploy your site. This will provide you with a free hosted version of your site. To do this, navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page. On the Settings page, select Pages on the left side of the page. On the GitHub Pages screen, choose `main` in the dropdown under Source. Navigate to <your-github-username.github.io/your-repository-name> and you will find that your new webpage has gone live! For example, if your GitHub username is "lernantino" and the project is "css-demo-site", then your URL would be <lernantino.github.io/css-demo-site>. You can also refer to this [YouTube video on enabling GitHub Pages](https://youtu.be/P4Mu1t5rIXg) for more guidance.
-   2. Add the css, html, and JS into a codepen or JSfiddle project and make sure it is saved. 
-6. When one of the above is completed, send the hiring manager 2 links: 1) the link to your repo and 2) the link to you live site or codepen/jsfiddle. 
