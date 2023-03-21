@@ -16,3 +16,10 @@ footer {
     background-color: #EBEBEB;
     padding-top: 1.0rem
 }
+#page-navigation {
+    padding-top: 2.0rem;
+}
+.img-thumbnail {
+    margin-top: 0.5rem;
+    margin-right: 0.25rem;
+}
