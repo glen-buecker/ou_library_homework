@@ -1,0 +1,18 @@
+.bg-primary {
+    background-color: #AA1111 !important;
+}
+main {
+
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+}
+body {
+    background-color: #000000;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #EBEBEB;
+    padding-top: 1.0rem
+}
