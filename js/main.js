@@ -30,7 +30,8 @@ $(document).ready(function() {
         console.log("It's nice to see what we got...");
         console.log(imagesJSON);
 
-        generate_image_gallery();
+        // Create a page of images and then display them
+        apply_pagination();
 
     }).fail(function(response) {
         // Inside fail(), we can handle error cases.
@@ -43,20 +44,39 @@ $(document).ready(function() {
     **  Functions  **
     *****************
     */
+    function apply_pagination() {
+        $('#pagination').twbsPagination({
+            // Set twbsPagination required variables
+            totalPages: totalPages,
+            // Show all pages
+            visiblePages: totalPages,
+
+            // Change pages on click in pagination navigation
+            onPageClick: function(event, page) {
+                // Set page number and get images for that page
+                let displayImagesIndex = Math.max(page - 1, 0) * imgPerPage;
+                let endRec = (displayImagesIndex) + imgPerPage;
+                console.log('Displaying images ' + (displayImagesIndex + 1) + '-' + endRec);
+                displayImages = images.slice(displayImagesIndex, endRec); // retrieve the slice of images
+                // Create gallery page
+                generate_image_gallery();
+            } // end onPageClick
+        }); // end pagination
+    } // end apply_pagination()
     function generate_image_gallery() {
         // Variables to load images into, so we only have to update the DOM once
         let pageImages = "", currentImg = "";
         // clear out any existing thumbnails
         $('#gallery').html('');
         // For loop to set image range and create HTML
-        for (var i = 0; i < totalImages; i++) {
+        for (var i = 0; i < displayImages.length; i++) {
             // HTML for each image
-            currentImg = `<a class="spotlight" id="${images[i].id}" href="${images[i].url}" data-preload="true">
-				<img src="${images[i].thumbnailUrl}" alt="${images[i].title}" class="img-thumbnail" aria-label="Placeholder image"/></a>
+            currentImg = `<a class="spotlight" id="${displayImages[i].id}" href="${displayImages[i].url}" data-preload="true">
+				<img src="${displayImages[i].thumbnailUrl}" alt="${displayImages[i].title}" class="img-thumbnail" aria-label="Placeholder image"/></a>
                 </a>`;
             pageImages += currentImg; //add to html string
-        } // /for loop
+        } // end for loop
         // Append html to index.html
         $('#gallery').append(pageImages);
-    } // /generate_image_gallery_page
+    } // end generate_image_gallery
 })// end (document).ready()
