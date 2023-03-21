@@ -79,4 +79,14 @@ $(document).ready(function() {
         // Append html to index.html
         $('#gallery').append(pageImages);
     } // end generate_image_gallery
+    // Code for changing active link on clicking
+    // TODO: need to add code to change active link when scrolling to the top of the page
+    var btns = $("#navigation .navbar-nav .nav-link");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
 })// end (document).ready()
