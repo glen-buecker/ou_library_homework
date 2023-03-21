@@ -1,2 +1,10 @@
-INstead of usng my previous homework assingment, I decided to recreate it incorporating a few changes.
+Instead of usng my previous homework assingment, I decided to recreate it incorporating a few changes.
+
+Plan:
+- Create default folder structure
+- index.html - create base bootstrap designed index.html (nav, main, footer)
+- Create nav and footer sections
+- Download images
+- Create gallery
+- Add pagination
 
