@@ -1,4 +1,4 @@
-Instead of usng my previous homework assingment, I decided to recreate it incorporating a few changes.
+Instead of using my previous homework assignment, I decided to recreate it incorporating a few changes.
 
 Plan:
 - Create default folder structure
@@ -8,3 +8,10 @@ Plan:
 - Create gallery
 - Add pagination
 
+Spotlight gallery is a breeze to use. Much simpler than previous version.
+
+Issues:
+-image layout could be cleaner based on screen size
+-image download is slow; my connection?
+-pagination dark mode not working
+-colors look comical against layout
